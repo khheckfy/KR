@@ -1,4 +1,4 @@
-﻿import 'poper';
+﻿//import 'poper';
 import * as $ from "jquery";
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

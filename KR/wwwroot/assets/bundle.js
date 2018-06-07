@@ -112,19 +112,16 @@ module.exports = g;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var poper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! poper */ "./node_modules/poper/dist/poper.js");
-/* harmony import */ var poper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(poper__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
-/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var font_awesome_css_font_awesome_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! font-awesome/css/font-awesome.css */ "./node_modules/font-awesome/css/font-awesome.css");
-/* harmony import */ var font_awesome_css_font_awesome_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(font_awesome_css_font_awesome_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _Content_css_Site_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Content/css/Site.css */ "./Content/css/Site.css");
-/* harmony import */ var _Content_css_Site_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Content_css_Site_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Content_css_one_page_wonder_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Content/css/one-page-wonder.css */ "./Content/css/one-page-wonder.css");
-/* harmony import */ var _Content_css_one_page_wonder_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Content_css_one_page_wonder_css__WEBPACK_IMPORTED_MODULE_5__);
-
+/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
+/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var font_awesome_css_font_awesome_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! font-awesome/css/font-awesome.css */ "./node_modules/font-awesome/css/font-awesome.css");
+/* harmony import */ var font_awesome_css_font_awesome_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(font_awesome_css_font_awesome_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Content_css_Site_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Content/css/Site.css */ "./Content/css/Site.css");
+/* harmony import */ var _Content_css_Site_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Content_css_Site_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Content_css_one_page_wonder_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Content/css/one-page-wonder.css */ "./Content/css/one-page-wonder.css");
+/* harmony import */ var _Content_css_one_page_wonder_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Content_css_one_page_wonder_css__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
@@ -4192,7 +4189,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "/*!\r\n * Start Bootstrap - One Page Wonder (http://startbootstrap.com/template-overviews/one-page-wonder)\r\n * Copyright 2013-2017 Start Bootstrap\r\n * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)\r\n */\r\n\r\nbody {\r\n    padding-top: 54px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    body {\r\n        padding-top: 56px;\r\n    }\r\n}\r\n\r\nheader.masthead {\r\n    background: url('https://unsplash.it/1900/1080?image=834') no-repeat center center scroll;\r\n    -webkit-background-size: cover;\r\n    -moz-background-size: cover;\r\n    background-size: cover;\r\n    -o-background-size: cover;\r\n}\r\n\r\n    header.masthead > .overlay {\r\n        padding: 5rem 0;\r\n        text-align: center;\r\n        background: rgba(0, 0, 0, 0.6);\r\n    }\r\n\r\n@media (min-width: 992px) {\r\n    header.masthead > .overlay {\r\n        padding: 10rem 0;\r\n    }\r\n}\r\n", ""]);
+exports.push([module.i, "/*!\r\n * Start Bootstrap - One Page Wonder (http://startbootstrap.com/template-overviews/one-page-wonder)\r\n * Copyright 2013-2017 Start Bootstrap\r\n * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)\r\n */\r\n\r\nbody {\r\n    padding-top: 54px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    body {\r\n        padding-top: 56px;\r\n    }\r\n}\r\n\r\nheader.masthead {\r\n    background: url('/img/header.jpg') no-repeat center center scroll;\r\n    -webkit-background-size: cover;\r\n    -moz-background-size: cover;\r\n    background-size: cover;\r\n    -o-background-size: cover;\r\n}\r\n\r\n    header.masthead > .overlay {\r\n        padding: 5rem 0;\r\n        text-align: center;\r\n        background: rgba(0, 0, 0, 0.6);\r\n    }\r\n\r\n@media (min-width: 992px) {\r\n    header.masthead > .overlay {\r\n        padding: 10rem 0;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
@@ -14820,54 +14817,6 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
-
-
-/***/ }),
-
-/***/ "./node_modules/poper/dist/poper.js":
-/*!******************************************!*\
-  !*** ./node_modules/poper/dist/poper.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-(function (global, factory) {
-   true ? module.exports = factory() :
-  undefined;
-}(this, (function () { 'use strict';
-
-var index = function (input, data, ref) {
-  if ( data === void 0 ) data = {};
-  if ( ref === void 0 ) ref = {};
-  var stringify = ref.stringify; if ( stringify === void 0 ) stringify = false;
-
-  if (typeof input !== 'string') {
-    throw new Error('Expected input to be string')
-  }
-
-  //          |        match start       | match content   |         match end        |
-  var re = /\/\*\s*@@([\w.\-_]+)\s*\*\/\s*(?:[\s\S]*?)\s*\/\*\s*([\w.\-_]+)@@\s*\*\//g;
-
-  return input.replace(re, function (match, key, endKey) {
-    if (key === endKey) {
-      var ret = data;
-
-      for (var i = 0, list = key.split('.'); i < list.length; i += 1) {
-        var prop = list[i];
-
-        ret = ret ? ret[prop] : '';
-      }
-
-      return stringify ? JSON.stringify(ret) : ret
-    }
-
-    return match
-  })
-};
-
-return index;
-
-})));
 
 
 /***/ }),

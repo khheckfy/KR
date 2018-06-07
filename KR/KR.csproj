@@ -7,6 +7,14 @@
 
   <ItemGroup>
     <None Remove="App\index.ts" />
+    <None Remove="App\map.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\contacts.jpg" />
+    <None Include="wwwroot\img\delivery.jpg" />
+    <None Include="wwwroot\img\desc.jpg" />
+    <None Include="wwwroot\img\header.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,6 +23,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="App\index.ts" />
+    <TypeScriptCompile Include="App\map.ts" />
   </ItemGroup>
 
 </Project>
