@@ -1,7 +1,16 @@
 ﻿//import 'poper';
 import * as $ from "jquery";
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.css';
-import '../Content/css/Site.css';
-import '../Content/css/one-page-wonder.css';
+
+$(function () {
+    $('#btnShowCards').click(function () {
+        $('#img1,#img2,#img3,#img4,#btnShowCards').remove();
+        let data: string = '';
+        for (let i = 1; i <= 51; i++) {
+            data += '<div class="col-md-3 col-sm-4 col-xs-6 order-2">';
+            data += '   <img class="img-fluid" src="/img/cards/' + i + '.jpg">';
+            data += '</div>';
+        }
+        $('#cards').append(data);
+    });
+})

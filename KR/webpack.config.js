@@ -1,9 +1,10 @@
 ﻿"use strict";
 
 const path = require('path');
-
 const bundleFolder = "./wwwroot/assets/";
 const srcFolder = "./App/"
+var webpack = require('webpack'),
+    ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     mode: 'development',
